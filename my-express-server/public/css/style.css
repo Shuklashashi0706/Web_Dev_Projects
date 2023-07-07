@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+h1 {
+  color: aqua;
+}
+span {
+  color: black;
+}
+.navbar {
+  background-color: rgb(23, 215, 240);
+  padding: 10px;
+}
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.items li:hover {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  width: 180%;
+  transition: linear;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  width: 200%;
+  cursor: pointer;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.content {
+  text-align: center;
+  padding: 25px;
+}
+.content h2{
+    font-size: 50px;
+}
+.content h2 span{
+    color: rgb(245, 46, 16);
+}
+.content p{
+    text-align: left;
+}
+
+.footer {
+    margin-top: 60px;
+    padding: 2px;
+    text-align: center;
+  background-color: rgb(23, 215, 240);
+}
+
+.btn1{
+    background-color:rgb(245, 46, 16);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+}
