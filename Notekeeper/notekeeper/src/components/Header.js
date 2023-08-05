@@ -13,7 +13,6 @@ function Header() {
     <>
     <div className='w-[100%]'>
       <div className='p-5 flex bg-black text-white justify-evenly'>
-      <p>Header</p>
       <ul>
         <li><Link to='/'>Home</Link></li>
       </ul>
